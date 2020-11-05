@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bootstrap</title>
+	<link rel="stylesheet" type="text/css" href="bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="di.css">
+	
+	<!--<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">-->
+</head>
+<body>
+	<div class="container">
+	<div class="jumbotron">
+		<h1>This is a jumbotron</h1>
+		<p>hello mg are you okay...</p>
+		<button class="btn btn-success btn-xl">Hello everyone</button>
+		<h1>Bootstrap Basics</h1>
+		<button class="btn btn-success btn-xl">Click me</button>
+		<button class="btn btn-success btn-xl active">Click me</button>
+		<button class="btn btn-success btn-xl disabled">Click me</button>
+		<a href="https://www.facebook.com" class="btn btn-info btn-lg">Facebook login</a>
+		
+		<a href="https://www.bootstrap.com" class="btn btn-info btn-lg disabled">Bootstrap option</a>
+		
+	</div>
+	<div>
+		<form class="jumbotron">
+			<div class="form-group">
+			<label class="need">Email:</label>
+			<input id="need" class="form-control" type="Email" placeholder="Email" required>
+			</div>
+			<div class="form-group">
+			<label class="password">Password:</label>
+			<input id="password" class="form-control" type="password" placeholder="Password" required>
+			</div>
+			<div class="form-group">
+			<label class="File">File:</label>
+			<input type="file" id="File" class="form-control">
+			</div>
+			<button class="btn btn-success btn-xl">Log in</button>
+	</form>
+	</div>
+
+
+
+
+		</div>
+</body>
+</html>
